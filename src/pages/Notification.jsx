@@ -96,6 +96,7 @@ const Notification = () => {
         });
         setTitle("");
         setMessage("");
+        setImage("");
       }
     } catch (err) {
       console.error(err);
@@ -139,7 +140,7 @@ const Notification = () => {
             </label>
             {/* 🖼️ Image Upload */}
             <label className="field">
-              <span>Upload Image (optional)</span>
+              <span>Upload Image </span>
               <input
                 type="file"
                 accept="image/*"

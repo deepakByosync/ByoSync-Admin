@@ -1,9 +1,5 @@
 /* simple styles (put in your CSS file) */
 
-* {
-  justify-content: center;
-  /* background: #ffffff; */
-}
 .notification-page {
   background: #ffffff;
   width: 100vw;
@@ -33,6 +29,8 @@
   flex-direction: column;
   gap: 8px;
   margin-bottom: 14px;
+  color: #0f172a;
+  text-align: left;
 }
 
 .msg-form input,
